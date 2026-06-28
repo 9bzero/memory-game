@@ -1,26 +1,19 @@
-# Memory Game
+# memory-game
 
-Flip cards, find matching pairs, clear the board.
+Flip cards, find matching pairs.
 
-## Features
+## Difficulty levels
 
-- 3 difficulty levels: Easy (4×3), Medium (4×4), Hard (6×5)
-- Shuffle on every new game
-- Move counter and elapsed timer
-- Card flip animation with CSS 3D transforms
-- Best score tracker per difficulty level
+| Level | Grid | Pairs |
+|---|---|---|
+| Easy | 4×3 | 6 |
+| Medium | 4×4 | 8 |
+| Hard | 6×4 | 12 |
 
-## Stack
+Cards flip back after 1 second if no match. Matched cards stay face-up. Timer and move counter track your run.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
-
-## Run locally
+## Run
 
 ```bash
 npm install && npm run dev
 ```
-
----
-Made by [9bzero](https://github.com/9bzero)
