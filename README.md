@@ -1,18 +1,26 @@
-# memory-game
+# Memory Game
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Emoji memory card matching with 3 difficulty levels and countdown timer
+Flip cards, find matching pairs, clear the board.
 
 ## Features
-- 🧠 Match emoji card pairs
-- ⏱️ Countdown timer
-- 🎯 Easy/Medium/Hard modes
-- 📊 Move counter and pairs tracker
+
+- 3 difficulty levels: Easy (4×3), Medium (4×4), Hard (6×5)
+- Shuffle on every new game
+- Move counter and elapsed timer
+- Card flip animation with CSS 3D transforms
+- Best score tracker per difficulty level
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
